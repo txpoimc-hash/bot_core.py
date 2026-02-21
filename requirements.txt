@@ -1,0 +1,42 @@
+# requirements_gaming.txt
+
+# Core gaming
+random2==1.0.2  # Random avanzato
+numpy==1.26.4  # Per calcoli probabilistici
+scipy==1.13.1  # Per distribuzioni statistiche
+
+# Slot machine e giochi
+pygame==2.5.2  # Per animazioni (opzionale)
+Pillow==10.3.0  # Per generare immagini slot machine
+imageio==2.34.0  # Per GIF e animazioni
+
+# Sistema premi e livelli
+progress==1.6  # Barre di progresso
+tabulate==0.9.0  # Tabelle ASCII per classifiche
+
+# Tournament management
+apscheduler==3.10.4  # Scheduling tornei
+pytz==2024.1
+
+# Analytics giochi
+pandas==2.2.2
+matplotlib==3.8.4  # Per grafici statistiche
+seaborn==0.13.2
+
+# Anti-cheat e fairness
+pycryptodome==3.20.0  # Per provably fair
+hashlib==built-in  # SHA-3 per verifica fairness
+secrets==built-in  # Generazione sicura numeri
+
+# Integrazione pagamenti
+stripe==8.9.0
+coinbase-commerce==1.0.0
+web3==6.17.2  # Per pagamenti crypto
+eth-account==0.11.1
+
+# Monetizzazione e ads
+google-ads==23.0.0
+facebook-business==19.0.0
+
+# Database gaming specific
+sqlalchemy-utils==0.41.2  # Campi JSON, enumerazioni
